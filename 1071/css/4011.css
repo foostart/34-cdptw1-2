@@ -1,0 +1,78 @@
+@import "../../values/less/var.less";
+.module-4011 {
+  height: 38px;
+  background-color: ;
+}
+.module-4011 .menu-chitiet {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 160rem;
+  padding: 0 1rem;
+}
+.module-4011 .menu-chitiet .navbar {
+  margin-bottom: 0;
+}
+.module-4011 .menu-chitiet .navbar ul {
+  margin-bottom: 0;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center;
+  list-style: none;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+}
+.module-4011 .menu-chitiet .navbar ul li.prevacti {
+  background-color: ;
+}
+.module-4011 .menu-chitiet .navbar ul li.prevacti a {
+  color: #fff;
+}
+.module-4011 .menu-chitiet .navbar ul li.prevacti:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(255,118,0,0);
+  border-top-color: #ff7600;
+  border-width: 1.5rem;
+  margin-left: -1.5rem;
+}
+.module-4011 .menu-chitiet .navbar ul li {
+  display: inline-block;
+  position: relative;
+  margin: 0 1.2rem;
+  padding: 0;
+}
+.module-4011 .menu-chitiet .navbar ul li a {
+  color: ;
+  display: block;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  padding: .4rem .9rem 1rem;
+}
+.module-4011 .menu-chitiet .navbar ul li a:hover {
+  text-decoration: none;
+}
+@media (max-width: 1199px) {
+  .module-4011 .menu-chitiet .navbar ul li {
+    margin: 0;
+  }
+  .module-4011 .menu-chitiet .navbar ul li a {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 991px) {
+  .module-4011 .menu-chitiet .navbar ul li a {
+    font-size: 1.2rem;
+    padding: .4rem .8rem 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .module-4011 .menu-chitiet {
+    display: none;
+  }
+}
