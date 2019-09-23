@@ -6,6 +6,7 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
+
 <div class="module-1060">
     <nav class="navbar navbar-default">
         <div class="hiding-header">
@@ -13,7 +14,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <a href="#" class="navbar-brand-full">
                     <img class="img-responsive" src="images/atdc.png" alt=""/>
                 </a>
-            </div>F
+            </div>
         </div>
 
         <div class="header-bar">
@@ -28,7 +29,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                                     <li><a href="#"><i class="fa fa-sign-in"></i>Tài khoản của tui <span class="arrow"></span></a>
                                         <div class="megamenu halfdiv03">
-                                            <h3 class="title">Đang nhập</h3>
+                                            <h3 class="title">Đăng nhập</h3>
                                             <form name="contact_name" class="menu_form">
                                                 <input type="text" placeholder="User Name">
                                                 <input type="password" placeholder="Password">
@@ -42,7 +43,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <h3 class="title">Liên hệ chúng tôi</h3>
                                             <form name="contact_name" class="menu_form">
                                                 <a href="https://www.google.com/maps/place/816+Tr%C6%B0%E1%BB%9Dng+Sa,+ph%C6%B0%E1%BB%9Dng+14,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh/data=!4m2!3m1!1s0x31752ed5ad3abbf1:0x7199e3d82c55f5a4?sa=X&ved=0ahUKEwjFusSW197VAhXBTLwKHb-PAMEQ8gEIIzAA">
-                                                    <img src="image/1060.png" alt="" style="width: 100%; max-width: 100%;"/>
+                                                    <img src="image/4000.png" alt="" style="width: 100%; max-width: 100%;"/>
                                                 </a>
                                                 <input type="text" placeholder="Name">
                                                 <input type="text" placeholder="Email">
@@ -66,7 +67,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
             <div class="navbar-collapse mega-nav">
                 <div class="mega-container text-center">
-                    <div class="tontent-two">
+                    <div class="content-two">
 
                         <div class="wsmenucontainer clearfix">
                             <div class="overlapblackbg"></div>
@@ -97,21 +98,21 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <nav class="wsmenu clearfix">
                                         <ul class="mobile-sub wsmenu-list">
 
-                                            <li><a href="http://localhost/foointro/templates/blocks/Product-catalog/Product-catalog.php"><i class="fa fa-align-justify"></i>Sản Phẩm <span class="arrow"></span></a>
+                                            <li><a href="http://localhost/foointro/templates/blocks/Product-catalog/Product-catalog.php" style="padding-right: 40px"><i class="fa fa-align-justify"></i>Sản Phẩm <span class="arrow"></span></a>
                                                 <div class="megamenu clearfix">
                                                     <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
-                                                        <li class="title"><a href="#">CRITICAL POWER</a></li>
-                                                        <li><a href="http://localhost/foointro/templates/blocks/List/List.php"><i class="fa fa-arrow-circle-right"></i>Uninterruptible Power Supplies (UPS)</a></li>
-                                                        <li><a href="http://localhost/foointro/templates/blocks/List/List.php"><i class="fa fa-arrow-circle-right"></i>DC Power Systems</a></li>
-                                                        <li><a href="http://localhost/foointro/templates/blocks/List/List.php"><i class="fa fa-arrow-circle-right"></i>Power Distribution</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Industrial AC and DC Systems</a></li>
-                                                        <li><a href="http://localhost/foointro/templates/blocks/List/List.php"><i class="fa fa-arrow-circle-right"></i>Power Transfer Switches</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Paralleling Switch Gear</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Load Banks</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Surge Protective Devices</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Fire Pump Controllers</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Control and Monitoring</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Wind Power</a></li>
+                                                        <li class="title"><a href="#">CRITICAL POWER</a>
+                                                                <li><a href="http://localhost/foointro/templates/blocks/List/List.php"><i class="fa fa-arrow-circle-right"></i>Uninterruptible Power Supplies (UPS)</a></li>
+                                                                <li><a href="http://localhost/foointro/templates/blocks/List/List.php"><i class="fa fa-arrow-circle-right"></i>DC Power Systems</a></li>
+                                                                <li><a href="http://localhost/foointro/templates/blocks/List/List.php"><i class="fa fa-arrow-circle-right"></i>Power Distribution</a></li>
+                                                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Industrial AC and DC Systems</a></li>
+                                                                <li><a href="http://localhost/foointro/templates/blocks/List/List.php"><i class="fa fa-arrow-circle-right"></i>Power Transfer Switches</a></li>
+                                                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Paralleling Switch Gear</a></li>
+                                                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Load Banks</a></li>
+                                                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Surge Protective Devices</a></li>
+                                                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Fire Pump Controllers</a></li>
+                                                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Control and Monitoring</a></li>
+                                                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Wind Power</a></li>
                                                     </ul>
                                                     <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
                                                         <li class="title"><a href="#">THERMAL MANAGEMENT</a></li>
@@ -145,19 +146,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </ul>
                                                 </div>
                                             </li>
-                                            <li><a href="http://localhost/foointro/templates/blocks/Support/Support.php"><i class="fa fa-align-justify"></i> Dịch vụ<span class="arrow"></span></a>
+                                            <li><a href="http://localhost/foointro/templates/blocks/Support/Support.php" style="padding-right: 55px"><i class="fa fa-align-justify"></i> Dịch vụ<span class="arrow"></span></a>
                                                 <ul class="wsmenu-submenu">
-                                                    <li class="title"><a href="#"><i class="fa fa-arrow-circle-right"></i>FIND SUPPORT</a></li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Search for Support Information</a></li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Contact Technical Support</a></li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Ask the Community Forum</a></li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Get Equipment Training</a></li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Get Software Downloads</a></li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Get Warranty Information</a></li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Register Your Product</a></li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Report an Issue</a></li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Ask a Question</a></li>
-                                                    <li><a href="#"><i class="fa fa-angle-right"></i>Open Source Development</a>
+                                                    <li class="title"><a href="#">FIND SUPORT</a></li>
+                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Open Source Development</a>
                                                         <ul class="wsmenu-submenu-sub">
                                                             <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1</a></li>
                                                             <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 2</a></li>
@@ -172,6 +164,15 @@ $url_path = str_replace('\\', '/', $url_path);
                                                             </li>
                                                         </ul>
                                                     </li>
+                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Search for Support Information</a></li>
+                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Contact Technical Support</a></li>
+                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Ask the Community Forum</a></li>
+                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Get Equipment Training</a></li>
+                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Get Software Downloads</a></li>
+                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Get Warranty Information</a></li>
+                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Register Your Product</a></li>
+                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Report an Issue</a></li>
+                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Ask a Question</a></li>
                                                 </ul>
                                             </li>
 
@@ -224,7 +225,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </ul>
                                                 </div>
                                             </li>
-                                            <li><a href="http://localhost/foointro/templates/blocks/about/about.php"><i class="fa fa-align-justify"></i>Tin tức<span class="arrow"></span></a>
+                                            <li><a href="http://localhost/foointro/templates/blocks/about/about.php" style="padding-right: 58px"><i class="fa fa-align-justify"></i>Tin tức<span class="arrow"></span></a>
                                                 <div class="megamenu clearfix">
                                                     <div class="typography-text clearfix">
                                                         <div class="col-lg-6 col-sm-12">
@@ -275,7 +276,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </div>
                                                 </div>
                                             </li>
-                                            <li><a href="http://localhost/foointro/templates/blocks/services/services.php"><i class="fa fa-align-justify"></i>Hỗ trợ <span class="arrow"></span></a>
+                                            <li><a href="http://localhost/foointro/templates/blocks/services/services.php" style="padding-right: 63px"><i class="fa fa-align-justify"></i>Hỗ trợ <span class="arrow"></span></a>
                                                 <div class="megamenu clearfix">
                                                     <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
                                                         <li class="title"><a href="#">CRITICAL POWER</a></li>

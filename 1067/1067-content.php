@@ -17,11 +17,12 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="row">
                 <div class="col-sm-8">
                     <div class="links">
-                        <a>Trang chủ</a><span>></span>
-                        <a>Sản phẩm</a><span>></span>
-                        <a>Năng lượng phê bình</a><span>></span>
-                        <a class="power">Nguồn cấp điện liên tục (UPS)</a>
+                        <a>Home</a><span>></span>
+                        <a>Products</a><span>></span>
+                        <a>Critical Power</a><span>></span>
+                        <a class="power">Uninterruptible Power Supplies (UPS)</a>
                     </div>
+                    <a href="#"><button class="fa fa-home home" value="home"></button></a> <!-- Back to Home Site -->
                 </div>
                 <div class="col-sm-4">
                     <div class="icon">
@@ -31,7 +32,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                         <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                     </div>
-                    <button class="fa fa-share-square-o"></button>
+                    <button class="fa fa-share-square-o share"></button>
                 </div>
             </div>
         </div>
@@ -39,8 +40,8 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="content">   
         <img src="image/4007-1.jpg" alt=""/>
         <div class="product">
-            <h2>NĂNG LƯỢNG PHÊ BÌNH</h2>
-            <h1>Nguồn cấp điện liên tục (UPS)</h1>
+            <h2>Critical Power</h2>
+            <h1>Uninterruptible Power Supplies (UPS)</h1>
         </div>
     </div>
 </div>

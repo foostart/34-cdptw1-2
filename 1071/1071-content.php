@@ -15,16 +15,27 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="module-4011">
     <div class="menu-chitiet">
         <nav class="navbar">
-            <ul>
+            <div class="navmenu">
                 <li class="prevacti">
-                    <a href="#Overview">Tổng quan</a></li>
-                <li><a href="#Specifications">Thông số kỹ thuật</a></li>
-                <li><a href="#downloads">tải</a></li>
-                <li><a href="#Features">Tính năng, đặc điểm</a></li>
-                <li><a href="#Benefits">Lợi ích</a></li>
-                <li><a href="#Contacts">Liên hệ</a></li>
+                    <a href="#Overview">Overview</a></li>
+                <li><a href="#Specifications">Specifications</a></li>
+                <li><a href="#Downloads">Downloads</a></li>
+                <li><a href="#Features">Features</a></li>
+                <li><a href="#Benefits">Benefits</a></li>
+                <li><a href="#Contacts">Contacts</a></li>
                 <li><a href="#Insights">Insights</a></li>
-            </ul>
+            </div>
+            <div class="navmenu-mobile">
+                <a class="close">&times;</a>
+                <a href="#Overview">Overview</a>
+                <a href="#Specifications">Specifications</a>
+                <a href="#Downloads">Downloads</a>
+                <a href="#Features">Features</a>
+                <a href="#Benefits">Benefits</a>
+                <a href="#Contacts">Contacts</a>
+                <a href="#Insights">Insights</a>
+            </div>
+            <button class="fa fa-bars menu"></button>
         </nav>
     </div>
 </div>

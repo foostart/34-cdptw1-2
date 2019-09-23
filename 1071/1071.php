@@ -16,6 +16,7 @@
         <link href="css/4011.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/1071.js" type="text/javascript"></script>
     </head> 
     <body> 
         <?php include '../1071/1071-content.php';?>

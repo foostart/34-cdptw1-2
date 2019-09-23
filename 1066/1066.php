@@ -32,7 +32,11 @@ and open the template in the editor.
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     
-      
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/jquery-mobile-mega-menu.js"></script>
+        <script src="js/js-4000-2.js"></script>
+        <script src="js/js-4000.js"></script>
+
     </head>
     <body>
 

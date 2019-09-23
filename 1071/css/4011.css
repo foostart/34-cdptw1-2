@@ -1,7 +1,10 @@
-@import "../../values/less/var.less";
+.size {
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+}
 .module-4011 {
   height: 38px;
-  background-color: ;
+  background-color: #eee;
 }
 .module-4011 .menu-chitiet {
   box-sizing: border-box;
@@ -12,7 +15,48 @@
 .module-4011 .menu-chitiet .navbar {
   margin-bottom: 0;
 }
-.module-4011 .menu-chitiet .navbar ul {
+.module-4011 .menu-chitiet .navbar .menu {
+  display: none;
+  height: 2.5rem;
+  width: 3.6rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: 1.8rem;
+  color: #000;
+}
+.module-4011 .menu-chitiet .navbar .navmenu-mobile {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  background-color: rgba(0,0,0,0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.module-4011 .menu-chitiet .navbar .navmenu-mobile .close {
+  position: absolute;
+  top: 3rem;
+  right: 5rem;
+  font-size: 6rem;
+}
+.module-4011 .menu-chitiet .navbar .navmenu-mobile a:hover,
+.module-4011 .menu-chitiet .navbar .navmenu-mobile a:focus {
+  color: #f1f1f1;
+}
+.module-4011 .menu-chitiet .navbar .navmenu-mobile a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.module-4011 .menu-chitiet .navbar .navmenu {
   margin-bottom: 0;
   padding-left: 0;
   margin-left: 0;
@@ -21,13 +65,13 @@
   font-size: 1.8rem;
   line-height: 2.3rem;
 }
-.module-4011 .menu-chitiet .navbar ul li.prevacti {
-  background-color: ;
+.module-4011 .menu-chitiet .navbar .navmenu a {
+  color: #000;
 }
-.module-4011 .menu-chitiet .navbar ul li.prevacti a {
-  color: #fff;
+.module-4011 .menu-chitiet .navbar .navmenu li:hover {
+  background-color: #ff7600;
 }
-.module-4011 .menu-chitiet .navbar ul li.prevacti:after {
+.module-4011 .menu-chitiet .navbar .navmenu li:hover:after {
   top: 100%;
   left: 50%;
   border: solid transparent;
@@ -41,27 +85,27 @@
   border-width: 1.5rem;
   margin-left: -1.5rem;
 }
-.module-4011 .menu-chitiet .navbar ul li {
+.module-4011 .menu-chitiet .navbar .navmenu li {
   display: inline-block;
   position: relative;
   margin: 0 1.2rem;
   padding: 0;
 }
-.module-4011 .menu-chitiet .navbar ul li a {
-  color: ;
+.module-4011 .menu-chitiet .navbar .navmenu li a {
+  color: grey;
   display: block;
   font-size: 1.8rem;
   line-height: 2.3rem;
   padding: .4rem .9rem 1rem;
 }
-.module-4011 .menu-chitiet .navbar ul li a:hover {
+.module-4011 .menu-chitiet .navbar .navmenu li a:hover {
   text-decoration: none;
 }
 @media (max-width: 1199px) {
-  .module-4011 .menu-chitiet .navbar ul li {
+  .module-4011 .menu-chitiet .navbar .navmenu li {
     margin: 0;
   }
-  .module-4011 .menu-chitiet .navbar ul li a {
+  .module-4011 .menu-chitiet .navbar .navmenu li a {
     font-size: 1.6rem;
   }
 }
@@ -72,7 +116,19 @@
   }
 }
 @media (max-width: 767px) {
-  .module-4011 .menu-chitiet {
+  .module-4011 .menu-chitiet .navbar .navmenu {
     display: none;
+    transition: width .7s;
+  }
+  .module-4011 .menu-chitiet .navbar .menu {
+    display: block;
+    height: 2.5rem;
+    width: 3.6rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    left: 1.7rem;
+    position: absolute;
+    bottom: 1.8rem;
+    color: #000;
   }
 }

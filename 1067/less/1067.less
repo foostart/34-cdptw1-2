@@ -10,7 +10,6 @@
                 text-decoration: inherit;
                 color: #ccc;
                 cursor: pointer;
-               
             }
             a:hover{
                color:#a098ce;
@@ -37,10 +36,8 @@
         }
         .icon .fa:hover{
             color:#a098ce;
-        }
-        
-        
-        button{
+        }      
+        .share, .home{
             display: none;
         }
     }
@@ -54,7 +51,7 @@
             transform: translate(0,-50%);
             position: absolute;
             top: 12rem;
-            left: 27%;
+
             text-align: center;
             h2{
                 text-transform: uppercase;
@@ -69,6 +66,14 @@
             }
         }
     }
+    @media(min-width:1200px){
+        .content{
+            .product{
+                left: 23.8%;
+            }
+        }
+    }
+    
     @media(max-width:1199px){
         .contact{
             .links{
@@ -80,6 +85,7 @@
         .content{
             .product{
                 top: 10rem;
+                left: 27.45%;
                 h2{
                     font-size: 1rem;
                 }
@@ -100,7 +106,7 @@
         .content{
             .product{
                 top: 8rem;
-                left: 35%;
+                left: 31.5%;
                 h2{
                     font-size: 1rem;
                 }
@@ -115,6 +121,18 @@
             padding: 2rem 2.5rem;
             .links{
                 display: none; 
+            }
+            .home {
+                display: block; 
+                height: 2.5rem;
+                width: 3.6rem;
+                font-size: 1.8rem;
+                cursor: pointer;
+                left: 1.7rem;
+                position: absolute;
+                border: none;
+                bottom: -1.04rem;
+                color: #000;
             }
             .icon{
                 display: none; 
@@ -132,7 +150,7 @@
                     margin: 0 0.7rem;
                 }
             }
-            button{
+            .share{
                 display: block;
                 height: 2.5rem;
                 width: 3.6rem;
@@ -153,7 +171,7 @@
             }
             .product{
                 left: 0%;
-                padding: 0 26%;
+                padding: 0 31.2%;
                 h2{
                     margin-bottom: 0;
                 }
@@ -163,16 +181,7 @@
                 }
             }
         }
-    }
-}
-@media(min-width: 768px){
-    .module-4007,.module-4004{
-        display: block !important;
-    }
-}
-@media(max-width: 767px){
-    .module-4007{
-        margin-top: 0rem;
+
     }
 }
 

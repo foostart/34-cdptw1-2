@@ -94,7 +94,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <nav class="wsmenu clearfix">
                                             <ul class="mobile-sub wsmenu-list">
 
-                                                   <li><a href="http://localhost/foointro/templates/blocks/Product-catalog/Product-catalog.php"><i class="fa fa-align-justify"></i>Sản Phẩm <span class="arrow"></span></a>
+                                                   <li><a href="http://localhost/foointro/templates/blocks/Product-catalog/Product-catalog.php" style="padding-right:40px"><i class="fa fa-align-justify"></i>Sản Phẩm <span class="arrow"></span></a>
                                                     <div class="megamenu clearfix">
                                                         <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
                                                             <li class="title"><a href="#">CRITICAL POWER</a></li>
@@ -142,9 +142,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                <li><a href="http://localhost/foointro/templates/blocks/Support/Support.php"><i class="fa fa-align-justify"></i> Dịch vụ<span class="arrow"></span></a>
+                                                <li><a href="http://localhost/foointro/templates/blocks/Support/Support.php" style="padding-right: 55px"><i class="fa fa-align-justify"></i> Dịch vụ<span class="arrow"></span></a>
                                                     <ul class="wsmenu-submenu">
-                                                        <li class="title"><a href="#"><i class="fa fa-arrow-circle-right"></i>FIND SUPPORT</a></li>
+                                                        <li class="title"><a href="#"></i>FIND SUPPORT</a></li>
                                                         <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Search for Support Information</a></li>
                                                         <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Contact Technical Support</a></li>
                                                         <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Ask the Community Forum</a></li>
@@ -221,7 +221,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                <li><a href="http://localhost/foointro/templates/blocks/about/about.php"><i class="fa fa-align-justify"></i>Tin tức<span class="arrow"></span></a>
+                                                <li><a href="http://localhost/foointro/templates/blocks/about/about.php" style="padding-right: 58px"><i class="fa fa-align-justify"></i>Tin tức<span class="arrow"></span></a>
                                                     <div class="megamenu clearfix">
                                                         <div class="typography-text clearfix">
                                                             <div class="col-lg-6 col-sm-12">
@@ -272,7 +272,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </div>
                                                     </div>
                                                 </li>
-                                                <li><a href="http://localhost/foointro/templates/blocks/services/services.php"><i class="fa fa-align-justify"></i>Hỗ trợ <span class="arrow"></span></a>
+                                                <li><a href="http://localhost/foointro/templates/blocks/services/services.php" style="padding-right: 63px"><i class="fa fa-align-justify"></i>Hỗ trợ <span class="arrow"></span></a>
                                                     <div class="megamenu clearfix">
                                                         <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
                                                             <li class="title"><a href="#">CRITICAL POWER</a></li>
