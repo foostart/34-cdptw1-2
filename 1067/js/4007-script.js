@@ -3,6 +3,4 @@ $(document).ready(function () {
         $(".icon").toggleClass('in');
         $(".icon").css('display','block');
     });
-
-
 });

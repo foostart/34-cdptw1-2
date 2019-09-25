@@ -36,7 +36,6 @@ and open the template in the editor.
         $less = new lessc;
         $less->compileFile('less/1060.less', 'css/1060.css');
         ?> 
-
         <link href="css/1060.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/jquery-mobile-mega-menu"></script>
