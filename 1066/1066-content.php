@@ -71,7 +71,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="wsmobileheader clearfix">
                                     <a id="wsnavtoggle" class="animated-arrow"><span></span></a>
                                     <a href="#" class="smallogo">
-                                        <img src="image/atdc.png" alt="" style="witdh: 87px"/></a>
+                                        <img src="image/atdc.png" alt=""/></a>
                                     <a class="callusicon" href="tel:123456789"><span class="fa fa-phone"></span></a>
                                 </div>
 
@@ -81,7 +81,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <div class="wsmain">
                                         <div class="smllogo">
                                             <a href="#">
-                                                <img src="image/atdc.png" alt="" style="witdh: 48%"/>
+                                                <img src="image/atdc.png" alt=""/>
                                             </a>
                                         </div>
                                         <div class="rightmenu">
@@ -92,51 +92,49 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
 
                                         <nav class="wsmenu clearfix">
-                                        <ul class="mobile-sub wsmenu-list">
-                                            <li><a href="#" style="padding-right: 40px"><i class="fa fa-align-justify"></i>Sản Phẩm <span class="arrow"></span></a>
-                                                <ul class="wsmenu-submenu">
-                                                        <li class="title"><a href="#">CRITICAL POWER</a><li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Uninterruptible Power Supplies (UPS)</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>DC Power Systems</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Distribution</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Transfer Switches</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#" style="padding-right: 55px"><i class="fa fa-align-justify"></i> Hỗ trợ<span class="arrow"></span></a>
-                                                <ul class="wsmenu-submenu">
-                                                    <li class="title"><a href="#">FIND SUPORT</a></li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Open Source Development</a>
-                                                        <ul class="wsmenu-submenu-sub">
-                                                            <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1</a></li>
-                                                            <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 2</a></li>
-                                                            <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 3</a></li>
-                                                            <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 4</a>
-                                                                <ul class="wsmenu-submenu-sub-sub">
-                                                                    <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1 Sub</a></li>
-                                                                    <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 2 Sub</a></li>
-                                                                    <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 3 Sub</a></li>
-                                                                    <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 4 Sub</a></li>
-                                                                </ul>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Search for Support Information</a></li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Contact Technical Support</a></li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Ask the Community Forum</a></li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Get Equipment Training</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#" style="padding-right: 58px"><i class="fa fa-align-justify"></i>Tin tức<span class="arrow"></span></a>
-                                            <ul class="wsmenu-submenu">
-                                                        <li class="title"><a href="#">CRITICAL POWER</a><li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Uninterruptible Power Supplies (UPS)</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>DC Power Systems</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Distribution</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Transfer Switches</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </nav>
+                                            <ul class="mobile-sub wsmenu-list">
+                                                <li><a href="#"><i class="fa fa-align-justify"></i>Sản Phẩm <span class="arrow"></span></a>
+                                                    <ul class="wsmenu-submenu">
+                                                            <li class="title"><a href="#">CRITICAL POWER</a><li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>DC Power Systems</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Distribution</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Transfer Switches</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#"><i class="fa fa-align-justify"></i> Hỗ trợ<span class="arrow"></span></a>
+                                                    <ul class="wsmenu-submenu">
+                                                        <li class="title"><a href="#">FIND SUPORT</a></li>
+                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Open Source Development</a>
+                                                            <ul class="wsmenu-submenu-sub">
+                                                                <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1</a></li>
+                                                                <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 2</a></li>
+                                                                <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 3</a></li>
+                                                                <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 4</a>
+                                                                    <ul class="wsmenu-submenu-sub-sub">
+                                                                        <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1 Sub</a></li>
+                                                                        <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 2 Sub</a></li>
+                                                                        <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 3 Sub</a></li>
+                                                                        <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 4 Sub</a></li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Search for Support Information</a></li>
+                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Contact Technical Support</a></li>
+                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Ask the Community Forum</a></li>
+                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Get Equipment Training</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#"><i class="fa fa-align-justify"></i>Dịch vụ<span class="arrow"></span></a>
+                                                    <ul class="wsmenu-submenu">
+                                                            <li class="title"><a href="#">MORE SERVICE</a><li>
+                                                            <li><a href="#"><i class="fa fa-android"></i> Android App Development</a></li>
+                                                            <li><a href="#"><i class="fa fa-apple"></i>iPhone App Development</a></li>
+                                                            <li><a href="#"><i class="fa fa-paypal"></i>Paypal Store Integration</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </nav>
                                     </div>
 
                                     <!--Menu HTML Code-->

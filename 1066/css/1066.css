@@ -50,6 +50,12 @@
   margin: 0px;
   padding: 0px;
 }
+.module-1066 .content-two .wsmenucontainer .wsmobileheader .smallogo img {
+  width: 55px;
+}
+.module-1066 .content-two .header .wsmain img {
+  max-width: 48%;
+}
 @media only screen and (max-width: 767px) {
   .module-1066 .content-one {
     display: none;

@@ -1,0 +1,139 @@
+@background-active: #ff7600;
+@background-insights: #eee;
+@textcolor-content-h1-h4: grey;
+.size{
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+}
+.module-1071{
+    height: 38px;
+    background-color: @background-insights;
+    .menu-chitiet{
+        box-sizing: border-box;
+        margin: 0 auto;
+        max-width: 160rem;
+        padding: 0 1rem;
+        .navbar{
+            margin-bottom: 0;
+            .menu{
+                display: none; 
+                height: 2.5rem;
+                width: 3.6rem;
+                font-size: 1.8rem;
+                cursor: pointer;
+                position: absolute;
+                bottom: 1.8rem;
+                color: #000;       
+            }
+            .navmenu-mobile {
+                height: 100%;
+                width: 0;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: rgb(0,0,0);
+                background-color: rgba(0,0,0, 0.9);
+                overflow-x: hidden;
+                transition: 0.5s;
+                .close {
+                    position: absolute;
+                    top: 3rem;
+                    right: 5rem;
+                    font-size: 6rem;
+                }
+                & a:hover, & a:focus{
+                    color: #f1f1f1;
+                }
+                a {
+                    padding: 8px;
+                    text-decoration: none;
+                    .size;
+                    color: #818181;
+                    display: block;
+                    transition: 0.3s;
+                }
+            }
+            .navmenu{
+                margin-bottom: 0;
+                padding-left: 0;
+                margin-left: 0;
+                padding-right: 34px;
+                text-align: center;
+                list-style: none;
+                .size;
+                a {
+                        color: #000;
+                }
+                li:hover {                   
+                    background-color: @background-active;
+                    &:after {
+                        top: 100%;
+                        left: 50%;
+                        border: solid transparent;
+                        content: " ";
+                        height: 0;
+                        width: 0;
+                        position: absolute;
+                        pointer-events: none;
+                        border-color: rgba(255,118,0,0);
+                        border-top-color: #ff7600;
+                        border-width: 1.5rem;
+                        margin-left: -1.5rem;
+                    }
+                }
+                li{
+                    display: inline-block;
+                    position: relative;
+                    margin: 0 1.2rem;
+                    padding: 0;
+                    a {
+                        color: @textcolor-content-h1-h4;
+                        display: block;
+                        .size;
+                        padding: .4rem .9rem 1rem;
+                        &:hover{
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1199px){
+        .menu-chitiet .navbar .navmenu li{
+            margin: 0;
+            a {
+                font-size: 1.6rem;
+            }
+        }
+    }
+    @media (max-width: 991px){
+        .menu-chitiet .navbar ul li a {
+            font-size: 1.2rem;
+            padding: .4rem .8rem 1rem;
+        }
+    }
+    @media (max-width: 767px){
+        .menu-chitiet .navbar{
+            .navmenu{
+                display: none ;
+                transition: width .7s;
+            }
+            .menu {
+                display: block; 
+                height: 2.5rem;
+                width: 3.6rem;
+                font-size: 1.8rem;
+                cursor: pointer;
+                left: 1.7rem;
+                position: absolute;
+                bottom: 1.8rem;
+                color: #000;
+            }
+        }
+        
+    }
+
+}

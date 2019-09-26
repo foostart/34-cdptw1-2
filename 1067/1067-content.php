@@ -22,7 +22,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <a>Critical Power</a><span>></span>
                         <a class="power">Uninterruptible Power Supplies (UPS)</a>
                     </div>
-                    <button class="fa fa-home home" value="home"></button><!-- Back to Home Site -->
+                    <button class="fa fa-home home"></button><!-- Back to Home Site -->
                 </div>
                 <div class="col-sm-4">
                     <div class="icon">

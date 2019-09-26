@@ -1,3 +1,13 @@
+.button {
+  display: block;
+  height: 2.5rem;
+  width: 3.6rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  position: absolute;
+  border: none;
+  bottom: -0.9rem;
+}
 .module-1067 .contact {
   background-color: rgba(0,0,0,0.6);
   padding: 1rem 0;
@@ -62,7 +72,14 @@
 }
 @media (min-width: 1200px) {
   .module-1067 .content .product {
-    left: 23.8%;
+    left: 16.7%;
+    right: 16.7%;
+  }
+  .module-1067 .content .product h2 {
+    font-size: 1.5rem;
+  }
+  .module-1067 .content .product h1 {
+    font-size: 3.5rem;
   }
 }
 @media (max-width: 1199px) {
@@ -72,7 +89,8 @@
   }
   .module-1067 .content .product {
     top: 10rem;
-    left: 27.45%;
+    left: 13.5%;
+    right: 13.5%;
   }
   .module-1067 .content .product h2 {
     font-size: 1rem;
@@ -88,7 +106,8 @@
   }
   .module-1067 .content .product {
     top: 8rem;
-    left: 31.5%;
+    left: 15.75%;
+    right: 15.75%;
   }
   .module-1067 .content .product h2 {
     font-size: 1rem;
@@ -110,11 +129,10 @@
     width: 3.6rem;
     font-size: 1.8rem;
     cursor: pointer;
-    left: 1.7rem;
     position: absolute;
     border: none;
-    bottom: -1.04rem;
-    color: #000;
+    bottom: -0.9rem;
+    left: 1.7rem;
   }
   .module-1067 .contact .icon {
     display: none;
@@ -138,10 +156,10 @@
     width: 3.6rem;
     font-size: 1.8rem;
     cursor: pointer;
-    right: 1.7rem;
     position: absolute;
     border: none;
     bottom: -0.9rem;
+    right: 1.7rem;
   }
   .module-1067 .contact .in {
     width: 0;
@@ -150,7 +168,8 @@
     height: 15rem;
   }
   .module-1067 .content .product {
-    left: 0%;
+    left: 5%;
+    right: 5%;
     padding: 0 31.2%;
   }
   .module-1067 .content .product h2 {

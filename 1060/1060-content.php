@@ -84,16 +84,15 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                     <nav class="wsmenu clearfix">
                                         <ul class="mobile-sub wsmenu-list">
-                                            <li><a href="#" style="padding-right: 40px"><i class="fa fa-align-justify"></i>Sản Phẩm <span class="arrow"></span></a>
+                                            <li><a href="#" ><i class="fa fa-align-justify"></i>Sản Phẩm <span class="arrow"></span></a>
                                                 <ul class="wsmenu-submenu">
                                                         <li class="title"><a href="#">CRITICAL POWER</a><li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Uninterruptible Power Supplies (UPS)</a></li>
                                                         <li><a href="#"><i class="fa fa-arrow-circle-right"></i>DC Power Systems</a></li>
                                                         <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Distribution</a></li>
                                                         <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Transfer Switches</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#" style="padding-right: 55px"><i class="fa fa-align-justify"></i> Hỗ trợ<span class="arrow"></span></a>
+                                            <li><a href="#"><i class="fa fa-align-justify"></i> Hỗ trợ<span class="arrow"></span></a>
                                                 <ul class="wsmenu-submenu">
                                                     <li class="title"><a href="#">FIND SUPORT</a></li>
                                                     <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Open Source Development</a>
@@ -117,13 +116,12 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Get Equipment Training</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#" style="padding-right: 58px"><i class="fa fa-align-justify"></i>Tin tức<span class="arrow"></span></a>
-                                            <ul class="wsmenu-submenu">
-                                                        <li class="title"><a href="#">CRITICAL POWER</a><li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Uninterruptible Power Supplies (UPS)</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>DC Power Systems</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Distribution</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Transfer Switches</a></li>
+                                            <li><a href="#"><i class="fa fa-align-justify"></i>Tin tức<span class="arrow"></span></a>
+												<ul class="wsmenu-submenu">
+                                                        <li class="title"><a href="#">MORE SERVICE</a><li>
+                                                        <li><a href="#"><i class="fa fa-android"></i> Android App Development</a></li>
+                                                        <li><a href="#"><i class="fa fa-apple"></i>iPhone App Development</a></li>
+                                                        <li><a href="#"><i class="fa fa-paypal"></i>Paypal Store Integration</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
