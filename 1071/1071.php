@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
@@ -11,12 +11,12 @@
             include ('libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/4011.less', 'css/4011.css');
+        $less->compileFile('less/1071.less', 'css/1071.css');
         ?> 
-        <link href="css/4011.css" rel="stylesheet" type="text/css"/>
-        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="js/1071.js" type="text/javascript"></script>
+        <link href="css/1071.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/1071.js"></script>
     </head> 
     <body> 
         <?php include '../1071/1071-content.php';?>

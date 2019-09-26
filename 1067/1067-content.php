@@ -22,7 +22,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <a>Critical Power</a><span>></span>
                         <a class="power">Uninterruptible Power Supplies (UPS)</a>
                     </div>
-                    <a href="#"><button class="fa fa-home home" value="home"></button></a> <!-- Back to Home Site -->
+                    <button class="fa fa-home home" value="home"></button><!-- Back to Home Site -->
                 </div>
                 <div class="col-sm-4">
                     <div class="icon">
@@ -38,7 +38,7 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
     <div class="content">   
-        <img src="image/4007-1.jpg" alt=""/>
+        <img src="image/1067-1.jpg" alt=""/>
         <div class="product">
             <h2>Critical Power</h2>
             <h1>Uninterruptible Power Supplies (UPS)</h1>

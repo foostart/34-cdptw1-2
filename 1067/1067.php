@@ -19,7 +19,7 @@ $less->compileFile('less/1067.less', 'css/1067.css');
 
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Module-1067</title>
         <meta charset="UTF-8">
@@ -30,7 +30,7 @@ $less->compileFile('less/1067.less', 'css/1067.css');
 
         <script src="js/jquery-2.1.4.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/4007-script.js"></script>
+        <script src="js/1067-script.js"></script>
     </head> 
 
     <body> 

@@ -24,15 +24,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
         <link href="css/972.css" rel="stylesheet" type="text/css"/>
 
     
         <script src="<?php echo $url_path ?>/js/jquery.min.js" ></script>
-        <script src="<?php echo $url_path ?>/js/jquery.slideshow.min.js" ></script>
-        <script src="<?php echo $url_path ?>/js/jquery.tmpl.min.js" ></script>
-        <script src="<?php echo $url_path ?>/js/modernizr.custom.40443.js" ></script>
-        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+        <script src="js/swiper.min.js"></script>
     </head>
     <body>
     <?php include'972-content.php' ?>

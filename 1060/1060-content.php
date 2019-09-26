@@ -6,7 +6,6 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-
 <div class="module-1060">
     <nav class="navbar navbar-default">
         <div class="hiding-header">
@@ -16,17 +15,13 @@ $url_path = str_replace('\\', '/', $url_path);
                 </a>
             </div>
         </div>
-
         <div class="header-bar">
             <div class="navbar-collapse mega-nav" style="background: #262626;">
                 <div class="mega-container text-center">
                     <div class="content-one">
-
                         <div class="wsmain">
-
                             <nav class="wsmenu clearfix">
                                 <ul class="mobile-sub wsmenu-list">
-
                                     <li><a href="#"><i class="fa fa-sign-in"></i>Tài khoản của tui <span class="arrow"></span></a>
                                         <div class="megamenu halfdiv03">
                                             <h3 class="title">Đăng nhập</h3>
@@ -43,7 +38,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <h3 class="title">Liên hệ chúng tôi</h3>
                                             <form name="contact_name" class="menu_form">
                                                 <a href="https://www.google.com/maps/place/816+Tr%C6%B0%E1%BB%9Dng+Sa,+ph%C6%B0%E1%BB%9Dng+14,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh/data=!4m2!3m1!1s0x31752ed5ad3abbf1:0x7199e3d82c55f5a4?sa=X&ved=0ahUKEwjFusSW197VAhXBTLwKHb-PAMEQ8gEIIzAA">
-                                                    <img src="image/4000.png" alt="" style="width: 100%; max-width: 100%;"/>
+                                                    <img src="images/4000.png" alt="" style="width: 100%; max-width: 100%;"/>
                                                 </a>
                                                 <input type="text" placeholder="Name">
                                                 <input type="text" placeholder="Email">
@@ -55,37 +50,30 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     </li>
                                     <li class="carticon"> <a href="#"><i class="fa fa-shopping-basket" ></i> <em class="roundpoint">8</em><span class="mobiletext">Shopping Cart</span></a> </li>
-
                                 </ul>
                             </nav>
                         </div>
-
                     </div>
-
                 </div>
             </div>
-
             <div class="navbar-collapse mega-nav">
                 <div class="mega-container text-center">
                     <div class="content-two">
-
                         <div class="wsmenucontainer clearfix">
                             <div class="overlapblackbg"></div>
                             <div class="wsmobileheader clearfix">
                                 <a id="wsnavtoggle" class="animated-arrow"><span></span></a>
                                 <a href="#" class="smallogo">
-                                    <img src="images/atdc.png" alt="" width=87px/>
+                                    <img src="images/atdc.png" alt=""/>
                                 </a>
                                 <a class="callusicon" href="tel:123456789"><span class="fa fa-phone"></span></a>
                             </div>
-
                             <div class="header">
-
                                 <!--Main Menu HTML Code-->
                                 <div class="wsmain">
                                     <div class="smllogo">
                                         <a href="#">
-                                            <img class="img-responsive" src="images/atdc.png" alt="" width=48%/>
+                                            <img class="img-responsive" src="images/atdc.png" alt=""/>
                                         </a>
                                     </div>
                                     <div class="rightmenu">
@@ -94,10 +82,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <button class="btnstyle"><i class="searchicon fa fa-search" aria-hidden="true"></i></button>
                                         </form>
                                     </div>
-
                                     <nav class="wsmenu clearfix">
                                         <ul class="mobile-sub wsmenu-list">
-
                                             <li><a href="#" style="padding-right: 40px"><i class="fa fa-align-justify"></i>Sản Phẩm <span class="arrow"></span></a>
                                                 <ul class="wsmenu-submenu">
                                                         <li class="title"><a href="#">CRITICAL POWER</a><li>
@@ -117,10 +103,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                                             <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 3</a></li>
                                                             <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 4</a>
                                                                 <ul class="wsmenu-submenu-sub-sub">
-                                                                    <li class=""><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1 Sub</a></li>
-                                                                    <li class=""><a href="#"><i class="fa fa-angle-right"></i>Submenu item 2 Sub</a></li>
-                                                                    <li class=""><a href="#"><i class="fa fa-angle-right"></i>Submenu item 3 Sub</a></li>
-                                                                    <li class=""><a href="#"><i class="fa fa-angle-right"></i>Submenu item 4 Sub</a></li>
+                                                                    <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1 Sub</a></li>
+                                                                    <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 2 Sub</a></li>
+                                                                    <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 3 Sub</a></li>
+                                                                    <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 4 Sub</a></li>
                                                                 </ul>
                                                             </li>
                                                         </ul>
@@ -131,9 +117,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Get Equipment Training</a></li>
                                                 </ul>
                                             </li>
-
-
-                                            <li><a href="#"><i class="fa fa-align-justify"></i> Khuyến mãi <span class="arrow"></span></a>
+                                            <li><a href="#" style="padding-right: 58px"><i class="fa fa-align-justify"></i>Tin tức<span class="arrow"></span></a>
                                             <ul class="wsmenu-submenu">
                                                         <li class="title"><a href="#">CRITICAL POWER</a><li>
                                                         <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Uninterruptible Power Supplies (UPS)</a></li>
@@ -142,22 +126,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Transfer Switches</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#" style="padding-right: 58px"><i class="fa fa-align-justify"></i>Tin tức<span class="arrow"></span></a>
-                                                <ul class="wsmenu-submenu">
-                                                    <li class="title"><a href="#">CRITICAL POWER</a><li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Uninterruptible Power Supplies (UPS)</a></li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>DC Power Systems</a></li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Distribution</a></li>
-                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Transfer Switches</a></li>
-                                                </ul>
-                                            </li>
+                                        </ul>
                                     </nav>
                                 </div>
-
                                 <!--Menu HTML Code-->
-
                             </div>
-
                         </div>
                         <!--/.navbar-collapse -->
                     </div>
@@ -165,5 +138,4 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </nav>
-
 </div>
