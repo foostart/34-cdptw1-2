@@ -38,7 +38,7 @@ and open the template in the editor.
         ?> 
         <link href="css/1060.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/jquery-mobile-mega-menu"></script>
+        <script src="js/jquery-mobile-mega-menu.js"></script>
         <script src="js/js-4000-2.js"></script>
         <script src="js/js-4000.js"></script>
     </head>

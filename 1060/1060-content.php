@@ -71,30 +71,24 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="header">
                                 <!--Main Menu HTML Code-->
                                 <div class="wsmain">
-                                    <div class="smllogo">
+                                    <div class="smllogo col-lg-1 col-md-1 col-sm-1 col-xs-1">
                                         <a href="#">
-                                            <img class="img-responsive" src="images/atdc.png" alt=""/>
+                                            <img src="images/atdc.png" alt=""/>
                                         </a>
                                     </div>
-                                    <div class="rightmenu">
-                                        <form class="topmenusearch">
-                                            <input placeholder="Search...">
-                                            <button class="btnstyle"><i class="searchicon fa fa-search" aria-hidden="true"></i></button>
-                                        </form>
-                                    </div>
-                                    <nav class="wsmenu clearfix">
+                                    <nav class="wsmenu clearfix col-lg-9 col-md-9 col-sm-9 col-xs-9">
                                         <ul class="mobile-sub wsmenu-list">
-                                            <li><a href="#" ><i class="fa fa-align-justify"></i>Sản Phẩm <span class="arrow"></span></a>
-                                                <ul class="wsmenu-submenu">
-                                                        <li class="title"><a href="#">CRITICAL POWER</a><li>
+                                            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><a href="#"><i class="fa fa-align-justify"></i>Sản Phẩm <span class="arrow"></span></a>
+                                                <ul class="wsmenu-submenu col-lg-12 col-md-12 col-sm-12">
+                                                        <li class="title"><a href="#"><b>Critical Power</b></a><li>
                                                         <li><a href="#"><i class="fa fa-arrow-circle-right"></i>DC Power Systems</a></li>
                                                         <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Distribution</a></li>
                                                         <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Transfer Switches</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#"><i class="fa fa-align-justify"></i> Hỗ trợ<span class="arrow"></span></a>
-                                                <ul class="wsmenu-submenu">
-                                                    <li class="title"><a href="#">FIND SUPORT</a></li>
+                                            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><a href="#"><i class="fa fa-align-justify"></i> Hỗ trợ<span class="arrow"></span></a>
+                                                <ul class="wsmenu-submenu col-lg-12 col-md-12 col-sm-12">
+                                                    <li class="title"><a href="#"><b>Find Support</b></a></li>
                                                     <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Open Source Development</a>
                                                         <ul class="wsmenu-submenu-sub">
                                                             <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1</a></li>
@@ -116,9 +110,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Get Equipment Training</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#"><i class="fa fa-align-justify"></i>Tin tức<span class="arrow"></span></a>
-												<ul class="wsmenu-submenu">
-                                                        <li class="title"><a href="#">MORE SERVICE</a><li>
+                                            <li  class="col-lg-3 col-md-3 col-sm-3 col-xs-3 "><a href="#"><i class="fa fa-align-justify"></i>Dịch vụ<span class="arrow"></span></a>
+                                                <ul class="wsmenu-submenu col-lg-12 col-md-12 col-sm-12">
+                                                        <li class="title"><a href="#"><b>More Services</b></a><li>
                                                         <li><a href="#"><i class="fa fa-android"></i> Android App Development</a></li>
                                                         <li><a href="#"><i class="fa fa-apple"></i>iPhone App Development</a></li>
                                                         <li><a href="#"><i class="fa fa-paypal"></i>Paypal Store Integration</a></li>
@@ -126,6 +120,12 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </li>
                                         </ul>
                                     </nav>
+                                    <div class="rightmenu col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                        <form class="topmenusearch">
+                                            <input placeholder="Search...">
+                                            <button class="btnstyle"><i class="searchicon fa fa-search" aria-hidden="true"></i></button>
+                                        </form>
+                                    </div>
                                 </div>
                                 <!--Menu HTML Code-->
                             </div>

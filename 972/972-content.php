@@ -14,14 +14,14 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="swiper-zoom-container">
-                                <div class="img">
+                                <div class="img-responsive img">
                                     <img src="images/1.jpg" data-bgimg="<?php echo $url_path ?>/images/1.jpg" alt="image01" title="Love Will Tear Us Apart" />
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="swiper-zoom-container">
-                                <div class="img">
+                                <div class="img-responsive img">
                                     <img src="images/2.jpg" data-bgimg="<?php echo $url_path ?>/images/2.jpg" alt="image02" title="Just Can't Get Enough" />
                                 </div>
                             </div>  

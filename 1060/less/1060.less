@@ -17,9 +17,22 @@
     -ms-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
+.submenu {
+    margin-top: -1px;
+    transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transform: rotateX(-75deg);
+    -o-transform: rotateX(-75deg);
+    -moz-transform: rotateX(-75deg);
+    -webkit-transform: rotateX(-75deg);
+    visibility: hidden;
+}
 @float: right;
 
 .module-1060{
+    
     .header-bar {
         position: inherit;
         z-index: 9999;
@@ -104,10 +117,6 @@
                 padding: 0px;
             }
         }
-
-
-
-
 
     }
     @media only screen and (max-width: 767px){
@@ -733,27 +742,10 @@
     .wsmenu-list {
         li > {
             .wsmenu-submenu {
-                margin-top: -1px;
-                transform-style: preserve-3d;
-                -o-transform-style: preserve-3d;
-                -moz-transform-style: preserve-3d;
-                -webkit-transform-style: preserve-3d;
-                transform: rotateX(-75deg);
-                -o-transform: rotateX(-75deg);
-                -moz-transform: rotateX(-75deg);
-                -webkit-transform: rotateX(-75deg);
-                visibility: hidden;
+                .submenu;
             }
             .wsmenu-submenu-sub {
-                transform-style: preserve-3d;
-                -o-transform-style: preserve-3d;
-                -moz-transform-style: preserve-3d;
-                -webkit-transform-style: preserve-3d;
-                transform: rotateX(-75deg);
-                -o-transform: rotateX(-75deg);
-                -moz-transform: rotateX(-75deg);
-                -webkit-transform: rotateX(-75deg);
-                visibility: hidden;
+                .submenu;
             }
         }
         li:hover > {
@@ -994,9 +986,6 @@
         .menu_form input[type="button"] {
             width: 40% !important;
         }
-        .wsmenu-list > li > a .fa {
-            display: none;
-        }
         .mobiletext {
             display: block;
         }
@@ -1039,6 +1028,9 @@
     --------------------------------------------------------------------------*/ 
 
     @media only screen and (max-width: 767px) {
+        .wsmenu-list > li > a .fa {
+            display: none;
+        }
         .wsmain {
             margin: 0px;
             background-color: transparent;

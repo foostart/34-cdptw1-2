@@ -18,12 +18,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="navbar-collapse mega-nav" style="background: #262626;">
                     <div class="mega-container text-center">
                         <div class="content-one">
-
                             <div class="wsmain">
-
                                 <nav class="wsmenu clearfix">
                                     <ul class="mobile-sub wsmenu-list">
-
                                         <li><a href="#"><i class="fa fa-sign-in"></i>Tài khoản của tôi<span class="arrow"></span></a>
                                             <div class="megamenu halfdiv03">
                                                 <h3 class="title">Đang nhập</h3>
@@ -38,7 +35,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <li><a href="#"><i class="fa fa-paper-plane"></i>Liên hệ chúng tôi<span class="arrow"></span></a>
                                             <div class="megamenu halfdiv">
                                                 <h3 class="title">Liên hệ chúng tôi</h3>
-                                                <a href="https://www.google.com/maps/place/816+Tr%C6%B0%E1%BB%9Dng+Sa,+ph%C6%B0%E1%BB%9Dng+14,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh/data=!4m2!3m1!1s0x31752ed5ad3abbf1:0x7199e3d82c55f5a4?sa=X&ved=0ahUKEwjFusSW197VAhXBTLwKHb-PAMEQ8gEIIzAA">
+                                                <a href="#">
                                                         <img src="image/4000.png" alt=""/>
                                                     </a>
                                                 <form name="contact_name" class="menu_form">
@@ -52,7 +49,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </div>
                                         </li>
                                         <li class="carticon"> <a href="#"><i class="fa fa-shopping-basket" ></i> <em class="roundpoint">8</em><span class="mobiletext">Shopping Cart</span></a> </li>
-
                                     </ul>
                                 </nav>
                             </div>
@@ -79,62 +75,61 @@ $url_path = str_replace('\\', '/', $url_path);
 
                                     <!--Main Menu HTML Code-->
                                     <div class="wsmain">
-                                        <div class="smllogo">
+                                        <div class="smllogo col-lg-1 col-md-1 col-sm-1">
                                             <a href="#">
-                                                <img src="image/atdc.png" alt=""/>
+                                                <img class="img-responsive" src="image/atdc.png" alt=""/>
                                             </a>
                                         </div>
-                                        <div class="rightmenu">
-                                            <form class="topmenusearch">
-                                                <input placeholder="Search...">
-                                                <button class="btnstyle"><i class="searchicon fa fa-search" aria-hidden="true"></i></button>
-                                            </form>
-                                        </div>
-
-                                        <nav class="wsmenu clearfix">
-                                            <ul class="mobile-sub wsmenu-list">
-                                                <li><a href="#"><i class="fa fa-align-justify"></i>Sản Phẩm <span class="arrow"></span></a>
-                                                    <ul class="wsmenu-submenu">
-                                                            <li class="title"><a href="#">CRITICAL POWER</a><li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>DC Power Systems</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Distribution</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Transfer Switches</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#"><i class="fa fa-align-justify"></i> Hỗ trợ<span class="arrow"></span></a>
-                                                    <ul class="wsmenu-submenu">
-                                                        <li class="title"><a href="#">FIND SUPORT</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Open Source Development</a>
-                                                            <ul class="wsmenu-submenu-sub">
-                                                                <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1</a></li>
-                                                                <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 2</a></li>
-                                                                <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 3</a></li>
-                                                                <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 4</a>
-                                                                    <ul class="wsmenu-submenu-sub-sub">
-                                                                        <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1 Sub</a></li>
-                                                                        <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 2 Sub</a></li>
-                                                                        <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 3 Sub</a></li>
-                                                                        <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 4 Sub</a></li>
-                                                                    </ul>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Search for Support Information</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Contact Technical Support</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Ask the Community Forum</a></li>
-                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Get Equipment Training</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#"><i class="fa fa-align-justify"></i>Dịch vụ<span class="arrow"></span></a>
-                                                    <ul class="wsmenu-submenu">
-                                                            <li class="title"><a href="#">MORE SERVICE</a><li>
-                                                            <li><a href="#"><i class="fa fa-android"></i> Android App Development</a></li>
-                                                            <li><a href="#"><i class="fa fa-apple"></i>iPhone App Development</a></li>
-                                                            <li><a href="#"><i class="fa fa-paypal"></i>Paypal Store Integration</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </nav>
+                                        <nav class="wsmenu clearfix col-lg-9 col-md-9 col-sm-9">
+                                        <ul class="mobile-sub wsmenu-list">
+                                            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><a href="#"><i class="fa fa-align-justify"></i>Sản Phẩm <span class="arrow"></span></a>
+                                                <ul class="wsmenu-submenu col-lg-12 col-md-12 col-sm-12">
+                                                        <li class="title"><a href="#"><b>Critical Power</b></a><li>
+                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>DC Power Systems</a></li>
+                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Distribution</a></li>
+                                                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Transfer Switches</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-lg-3 col-md-3 col-sm-3"><a href="#"><i class="fa fa-align-justify"></i> Hỗ trợ<span class="arrow"></span></a>
+                                                <ul class="wsmenu-submenu col-lg-12 col-md-12 col-sm-12">
+                                                    <li class="title"><a href="#"><b>Find Support</b></a></li>
+                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Open Source Development</a>
+                                                        <ul class="wsmenu-submenu-sub">
+                                                            <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1</a></li>
+                                                            <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 2</a></li>
+                                                            <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 3</a></li>
+                                                            <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 4</a>
+                                                                <ul class="wsmenu-submenu-sub-sub">
+                                                                    <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1 Sub</a></li>
+                                                                    <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 2 Sub</a></li>
+                                                                    <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 3 Sub</a></li>
+                                                                    <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 4 Sub</a></li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Search for Support Information</a></li>
+                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Contact Technical Support</a></li>
+                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Ask the Community Forum</a></li>
+                                                    <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Get Equipment Training</a></li>
+                                                </ul>
+                                            </li>
+                                            <li  class="col-lg-3 col-md-3 col-sm-3"><a href="#"><i class="fa fa-align-justify"></i>Dịch vụ<span class="arrow"></span></a>
+                                                <ul class="wsmenu-submenu col-lg-12 col-md-12 col-sm-12">
+                                                        <li class="title"><a href="#"><b>More Services</b></a><li>
+                                                        <li><a href="#"><i class="fa fa-android"></i> Android App Development</a></li>
+                                                        <li><a href="#"><i class="fa fa-apple"></i>iPhone App Development</a></li>
+                                                        <li><a href="#"><i class="fa fa-paypal"></i>Paypal Store Integration</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    <div class="rightmenu col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                        <form class="topmenusearch">
+                                            <input placeholder="Search...">
+                                            <button class="btnstyle"><i class="searchicon fa fa-search" aria-hidden="true"></i></button>
+                                        </form>
+                                    </div>
                                     </div>
 
                                     <!--Menu HTML Code-->
